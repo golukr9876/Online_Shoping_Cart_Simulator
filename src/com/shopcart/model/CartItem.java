@@ -1,6 +1,5 @@
 package com.shopcart.model;
 
-public class CartItem {
     private Product product;
     private int quantity;
 
@@ -26,4 +25,5 @@ public class CartItem {
         System.out.printf("%s (id:%d) x %d = ₹%.2f%n",
                 product.getName(), product.getId(), quantity, getTotalPrice());
     }
+
 }

@@ -1,7 +1,5 @@
 package com.shopcart.model;
-
-/**
- * Base abstract product class. All product types extend this.
+ /* Base abstract product class. All product types extend this.
  */
 public abstract class Product {
     private int id;
@@ -27,5 +25,6 @@ public abstract class Product {
 
     // each concrete product will implement its own display details
     public abstract void displayDetails();
+
 }
 
