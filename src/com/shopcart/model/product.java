@@ -1,5 +1,5 @@
 package com.shopcart.model;
 
-public class product {
+public class Product {
     
 }
